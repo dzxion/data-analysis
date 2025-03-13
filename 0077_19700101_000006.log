@@ -1,0 +1,671 @@
+D/XAG[01-01 00:00:06:723] (Update.cpp Update_Init:55)Update_Init success
+I/XAG[01-01 00:00:06:727] (CameraCtrl.cpp _InitCameraCalibJson:2712)####resolution = 5472
+I/XAG[01-01 00:00:06:728] (CamCalibJsonManSc2000.h GenerateSc2000CalibJson:38)config file /mnt/mtd/private/cameraCalibSc2000.json open success
+I/XAG[01-01 00:00:06:729] (CamCalibJsonManSc2000.h GenerateSc2000CalibJson:106)### calibtime == 20210415-00:01:01
+D/XAG[01-01 00:00:06:727] (CameraConfigConfig.cpp InitXmlConfig:57)InitXmlConfig success
+E/XAG[01-01 00:00:06:752] (cmfwk_mm.c fj_mm_get_shared_val:266)cannot open /proc/device-tree/shared_commem/lcd-osd-frame-addr
+
+E/XAG[01-01 00:00:06:752] (cmfwk_mm.c fj_mm_get_shared_val:266)cannot open /proc/device-tree/shared_commem/lcd-osd-frame-size
+
+D/XAG[01-01 00:00:06:752] (cmfwk_mm.c fj_mm_make_mmap_cfg:310)[INFO] Share memory num 17
+
+D/XAG[01-01 00:00:06:753] (cmfwk_mm.c fj_mm_mmap:343)fj_mm_mmap: mmap set: paddr=0x4fe00000 offset=0x0 length=0x90000
+
+D/XAG[01-01 00:00:06:753] (cmfwk_mm.c fj_mm_mmap:355)fj_mm_mmap: paddr=0x4fe00000 vaddr=0x76629000 length=0x90000 
+
+D/XAG[01-01 00:00:06:754] (cmfwk_mm.c fj_mm_mmap:356)fj_mm_mmap: page_paddr=0x4fe00000 page_vaddr=0x76629000 page_length=0x90000 
+
+D/XAG[01-01 00:00:06:754] (cmfwk_mm.c fj_mm_mmap:343)fj_mm_mmap: mmap set: paddr=0x4fe90000 offset=0x0 length=0x48
+
+D/XAG[01-01 00:00:06:755] (cmfwk_mm.c fj_mm_mmap:355)fj_mm_mmap: paddr=0x4fe90000 vaddr=0x76fbc000 length=0x48 
+
+D/XAG[01-01 00:00:06:755] (cmfwk_mm.c fj_mm_mmap:356)fj_mm_mmap: page_paddr=0x4fe90000 page_vaddr=0x76fbc000 page_length=0x48 
+
+D/XAG[01-01 00:00:06:755] (cmfwk_mm.c fj_mm_mmap:343)fj_mm_mmap: mmap set: paddr=0x4fe90000 offset=0x48 length=0x4c
+
+D/XAG[01-01 00:00:06:756] (cmfwk_mm.c fj_mm_mmap:355)fj_mm_mmap: paddr=0x4fe90048 vaddr=0x76fbb048 length=0x4 
+
+D/XAG[01-01 00:00:06:756] (cmfwk_mm.c fj_mm_mmap:356)fj_mm_mmap: page_paddr=0x4fe90000 page_vaddr=0x76fbb000 page_length=0x4c 
+
+D/XAG[01-01 00:00:06:757] (cmfwk_mm.c fj_mm_mmap:343)fj_mm_mmap: mmap set: paddr=0x4fe90000 offset=0x4c length=0x50
+
+D/XAG[01-01 00:00:06:757] (cmfwk_mm.c fj_mm_mmap:355)fj_mm_mmap: paddr=0x4fe9004c vaddr=0x7662804c length=0x4 
+
+D/XAG[01-01 00:00:06:762] (cmfwk_mm.c fj_mm_mmap:356)fj_mm_mmap: page_paddr=0x4fe90000 page_vaddr=0x76628000 page_length=0x50 
+
+D/XAG[01-01 00:00:06:762] (cmfwk_mm.c fj_mm_mmap:343)fj_mm_mmap: mmap set: paddr=0x6e5e0000 offset=0x0 length=0x5880000
+
+D/XAG[01-01 00:00:06:766] (cmfwk_mm.c fj_mm_mmap:355)fj_mm_mmap: paddr=0x6e5e0000 vaddr=0x70b80000 length=0x5880000 
+
+D/XAG[01-01 00:00:06:768] (cmfwk_mm.c fj_mm_mmap:356)fj_mm_mmap: page_paddr=0x6e5e0000 page_vaddr=0x70b80000 page_length=0x5880000 
+
+D/XAG[01-01 00:00:06:768] (cmfwk_mm.c fj_mm_mmap:343)fj_mm_mmap: mmap set: paddr=0x4fe90000 offset=0x450 length=0x32464
+
+D/XAG[01-01 00:00:06:769] (cmfwk_mm.c fj_mm_mmap:355)fj_mm_mmap: paddr=0x4fe90450 vaddr=0x70b4d450 length=0x32014 
+
+D/XAG[01-01 00:00:06:776] (cmfwk_mm.c fj_mm_mmap:356)fj_mm_mmap: page_paddr=0x4fe90000 page_vaddr=0x70b4d000 page_length=0x32464 
+
+D/XAG[01-01 00:00:06:776] (cmfwk_mm.c fj_mm_mmap:343)fj_mm_mmap: mmap set: paddr=0x4fe90000 offset=0x50 length=0x450
+
+D/XAG[01-01 00:00:06:777] (cmfwk_mm.c fj_mm_mmap:355)fj_mm_mmap: paddr=0x4fe90050 vaddr=0x76627050 length=0x400 
+
+D/XAG[01-01 00:00:06:777] (cmfwk_mm.c fj_mm_mmap:356)fj_mm_mmap: page_paddr=0x4fe90000 page_vaddr=0x76627000 page_length=0x450 
+
+D/XAG[01-01 00:00:06:778] (cmfwk_mm.c fj_mm_mmap:343)fj_mm_mmap: mmap set: paddr=0xd09a0000 offset=0x0 length=0x2c80000
+
+D/XAG[01-01 00:00:06:780] (cmfwk_mm.c fj_mm_mmap:355)fj_mm_mmap: paddr=0xd09a0000 vaddr=0x6decd000 length=0x2c80000 
+
+D/XAG[01-01 00:00:06:780] (cmfwk_mm.c fj_mm_mmap:356)fj_mm_mmap: page_paddr=0xd09a0000 page_vaddr=0x6decd000 page_length=0x2c80000 
+
+D/XAG[01-01 00:00:06:780] (cmfwk_mm.c fj_mm_mmap:343)fj_mm_mmap: mmap set: paddr=0xc31fc000 offset=0x0 length=0x304000
+
+D/XAG[01-01 00:00:06:781] (cmfwk_mm.c fj_mm_mmap:355)fj_mm_mmap: paddr=0xc31fc000 vaddr=0x6dbc9000 length=0x304000 
+
+D/XAG[01-01 00:00:06:781] (cmfwk_mm.c fj_mm_mmap:356)fj_mm_mmap: page_paddr=0xc31fc000 page_vaddr=0x6dbc9000 page_length=0x304000 
+
+D/XAG[01-01 00:00:06:782] (cmfwk_mm.c fj_mm_open:423)fj_mm_open: 0x00000000[09] does not use (No such file or directory) 
+
+D/XAG[01-01 00:00:06:782] (cmfwk_mm.c fj_mm_mmap:343)fj_mm_mmap: mmap set: paddr=0x7bdd0000 offset=0x0 length=0x3328000
+
+D/XAG[01-01 00:00:06:785] (cmfwk_mm.c fj_mm_mmap:355)fj_mm_mmap: paddr=0x7bdd0000 vaddr=0x6a8a1000 length=0x3328000 
+
+D/XAG[01-01 00:00:06:785] (cmfwk_mm.c fj_mm_mmap:356)fj_mm_mmap: page_paddr=0x7bdd0000 page_vaddr=0x6a8a1000 page_length=0x3328000 
+I/XAG[01-01 00:00:06:798] (ipcu.cpp IF_IPCU_cmd_rcv_callback:279)recv response
+
+D/XAG[01-01 00:00:06:786] (cmfwk_mm.c fj_mm_open:423)fj_mm_open: 0x00000000[11] does not use (No such file or directory) 
+
+D/XAG[01-01 00:00:06:786] (cmfwk_mm.c fj_mm_mmap:343)fj_mm_mmap: mmap set: paddr=0xc14fc000 offset=0x0 length=0x1d00000
+
+D/XAG[01-01 00:00:06:787] (cmfwk_mm.c fj_mm_mmap:355)fj_mm_mmap: paddr=0xc14fc000 vaddr=0x68ba1000 length=0x1d00000 
+
+D/XAG[01-01 00:00:06:787] (cmfwk_mm.c fj_mm_mmap:356)fj_mm_mmap: page_paddr=0xc14fc000 page_vaddr=0x68ba1000 page_length=0x1d00000 
+
+D/XAG[01-01 00:00:06:787] (cmfwk_mm.c fj_mm_mmap:343)fj_mm_mmap: mmap set: paddr=0x4fec2000 offset=0x468 length=0x3fd4
+
+D/XAG[01-01 00:00:06:787] (cmfwk_mm.c fj_mm_mmap:355)fj_mm_mmap: paddr=0x4fec2468 vaddr=0x76623468 length=0x3b6c 
+
+D/XAG[01-01 00:00:06:787] (cmfwk_mm.c fj_mm_mmap:356)fj_mm_mmap: page_paddr=0x4fec2000 page_vaddr=0x76623000 page_length=0x3fd4 
+
+D/XAG[01-01 00:00:06:787] (cmfwk_mm.c fj_mm_open:423)fj_mm_open: 0x00000000[14] does not use (No such file or directory) 
+
+D/XAG[01-01 00:00:06:787] (cmfwk_mm.c fj_mm_open:423)fj_mm_open: 0x00000000[15] does not use (No such file or directory) 
+
+D/XAG[01-01 00:00:06:788] (cmfwk_mm.c fj_mm_open:423)fj_mm_open: 0x00000000[16] does not use (No such file or directory) 
+
+D/XAG[01-01 00:00:06:789] (cmfwk_ipcu.c FJ_IPCU_Open:1104)FJ_IPCU_Open: open /dev/snrtos0_1 (IPCU#1) 
+
+D/XAG[01-01 00:00:06:790] (cmfwk_ipcu.c FJ_IPCU_Open:1104)FJ_IPCU_Open: open /dev/snrtos0_0 (IPCU#0) 
+I/XAG[01-01 00:00:07:111] (ipcu.cpp IF_IPCU_cmd_rcv_callback:279)recv response
+
+D/XAG[01-01 00:00:06:797] (ipcu.cpp IF_IPCU_Initialize:400)IF_IPCU_Initialize success
+I/XAG[01-01 00:00:07:112] (ipcu.cpp IF_IPCU_cmd_rcv_callback:279)recv response
+D/XAG[01-01 00:00:06:797] (cmfwk_ipcu.c FJ_IPCU_Send:1229)FJ_IPCU_Send: id=1 pdata=0x7efe2ae0 length=40 sync=1 
+
+D/XAG[01-01 00:00:06:797] (cmfwk_ipcu.c ipcu_sender_thread:650)send_from_noshared sneder id 1
+D/XAG[01-01 00:00:06:797] (cmfwk_ipcu.c ipcu_sender_thread:667)signal send resonse, id 1
+D/XAG[01-01 00:00:07:111] (cmfwk_ipcu.c FJ_IPCU_Send:1229)FJ_IPCU_Send: id=1 pdata=0x7efe2ae0 length=40 sync=1 
+
+D/XAG[01-01 00:00:07:111] (cmfwk_ipcu.c ipcu_sender_thread:650)send_from_noshared sneder id 1
+D/XAG[01-01 00:00:07:111] (cmfwk_ipcu.c ipcu_sender_thread:667)signal send resonse, id 1
+D/XAG[01-01 00:00:07:112] (cmfwk_ipcu.c FJ_IPCU_Send:1229)FJ_IPCU_Send: id=1 pdata=0x7efe2ae0 length=40 sync=1 
+
+D/XAG[01-01 00:00:07:112] (cmfwk_ipcu.c ipcu_sender_thread:650)send_from_noshared sneder id 1
+D/XAG[01-01 00:00:07:112] (cmfwk_ipcu.c ipcu_sender_thread:667)signal send resonse, id 1
+D/XAG[01-01 00:00:07:113] (Camera_If.cpp CAMERA_Init:159)CAMERA_Init success
+D/XAG[01-01 00:00:07:119] (VideoPool.cpp VideoPool_Init:76)VideoPool_Init success
+D/XAG[01-01 00:00:07:130] (VideoPool.cpp VideoPool_Init:76)VideoPool_Init success
+D/XAG[01-01 00:00:07:135] (VideoPool.cpp VideoPool_Init:76)VideoPool_Init success
+D/XAG[01-01 00:00:07:146] (VideoPool.cpp VideoPool_Init:76)VideoPool_Init success
+D/XAG[01-01 00:00:07:147] (cmfwk_ipcu.c FJ_IPCU_Send:1229)FJ_IPCU_Send: id=1 pdata=0x7efe2ad8 length=40 sync=1 
+
+D/XAG[01-01 00:00:07:147] (cmfwk_ipcu.c ipcu_sender_thread:650)send_from_noshared sneder id 1
+I/XAG[01-01 00:00:07:148] (ipcu.cpp IF_IPCU_cmd_rcv_callback:279)recv response
+D/XAG[01-01 00:00:07:148] (cmfwk_ipcu.c ipcu_sender_thread:667)signal send resonse, id 1
+D/XAG[01-01 00:00:07:148] (cmfwk_ipcu.c FJ_IPCU_Send:1229)FJ_IPCU_Send: id=1 pdata=0x7efe2ad8 length=40 sync=1 
+
+D/XAG[01-01 00:00:07:149] (cmfwk_ipcu.c ipcu_sender_thread:650)send_from_noshared sneder id 1
+I/XAG[01-01 00:00:07:149] (ipcu.cpp IF_IPCU_cmd_rcv_callback:279)recv response
+D/XAG[01-01 00:00:07:149] (cmfwk_ipcu.c ipcu_sender_thread:667)signal send resonse, id 1
+D/XAG[01-01 00:00:07:150] (cmfwk_ipcu.c FJ_IPCU_Send:1229)FJ_IPCU_Send: id=1 pdata=0x7efe2ad8 length=40 sync=1 
+
+D/XAG[01-01 00:00:07:150] (cmfwk_ipcu.c ipcu_sender_thread:650)send_from_noshared sneder id 1
+I/XAG[01-01 00:00:07:151] (ipcu.cpp IF_IPCU_cmd_rcv_callback:279)recv response
+I/XAG[01-01 00:00:07:151] (ipcu.cpp IF_IPCU_cmd_rcv_callback:279)recv response
+D/XAG[01-01 00:00:07:150] (cmfwk_ipcu.c ipcu_sender_thread:667)signal send resonse, id 1
+D/XAG[01-01 00:00:07:151] (cmfwk_ipcu.c FJ_IPCU_Send:1229)FJ_IPCU_Send: id=1 pdata=0x7efe2ad8 length=40 sync=1 
+
+D/XAG[01-01 00:00:07:151] (cmfwk_ipcu.c ipcu_sender_thread:650)send_from_noshared sneder id 1
+D/XAG[01-01 00:00:07:151] (cmfwk_ipcu.c ipcu_sender_thread:667)signal send resonse, id 1
+D/XAG[01-01 00:00:07:485] (cmfwk_ipcu.c FJ_IPCU_Send:1229)FJ_IPCU_Send: id=1 pdata=0x7efe2ad8 length=40 sync=1 
+
+I/XAG[01-01 00:00:07:486] (ipcu.cpp IF_IPCU_cmd_rcv_callback:279)recv response
+D/XAG[01-01 00:00:07:485] (cmfwk_ipcu.c ipcu_sender_thread:650)send_from_noshared sneder id 1
+D/XAG[01-01 00:00:07:485] (cmfwk_ipcu.c ipcu_sender_thread:667)signal send resonse, id 1
+D/XAG[01-01 00:00:07:486] (cmfwk_ipcu.c FJ_IPCU_Send:1229)FJ_IPCU_Send: id=1 pdata=0x7efe2ad8 length=40 sync=1 
+
+I/XAG[01-01 00:00:07:487] (ipcu.cpp IF_IPCU_cmd_rcv_callback:279)recv response
+D/XAG[01-01 00:00:07:486] (cmfwk_ipcu.c ipcu_sender_thread:650)send_from_noshared sneder id 1
+D/XAG[01-01 00:00:07:486] (cmfwk_ipcu.c ipcu_sender_thread:667)signal send resonse, id 1
+I/XAG[01-01 00:00:07:488] (ipcu.cpp IF_IPCU_cmd_rcv_callback:279)recv response
+D/XAG[01-01 00:00:07:487] (cmfwk_ipcu.c FJ_IPCU_Send:1229)FJ_IPCU_Send: id=1 pdata=0x7efe2ad8 length=40 sync=1 
+
+D/XAG[01-01 00:00:07:487] (cmfwk_ipcu.c ipcu_sender_thread:650)send_from_noshared sneder id 1
+D/XAG[01-01 00:00:07:487] (cmfwk_ipcu.c ipcu_sender_thread:667)signal send resonse, id 1
+D/XAG[01-01 00:00:07:498] (cmfwk_ipcu.c FJ_IPCU_Send:1229)FJ_IPCU_Send: id=1 pdata=0x7efe2ad8 length=40 sync=1 
+I/XAG[01-01 00:00:07:498] (ipcu.cpp IF_IPCU_cmd_rcv_callback:279)recv response
+
+D/XAG[01-01 00:00:07:498] (cmfwk_ipcu.c ipcu_sender_thread:650)send_from_noshared sneder id 1
+I/XAG[01-01 00:00:07:499] (ipcu.cpp IF_IPCU_cmd_rcv_callback:279)recv response
+I/XAG[01-01 00:00:07:499] (MediaDeviceSC2000.cpp _Camera_SetVideoCode:912)video code set success [h265]!
+D/XAG[01-01 00:00:07:498] (cmfwk_ipcu.c ipcu_sender_thread:667)signal send resonse, id 1
+D/XAG[01-01 00:00:07:498] (cmfwk_ipcu.c FJ_IPCU_Send:1229)FJ_IPCU_Send: id=1 pdata=0x7efe29f0 length=40 sync=1 
+
+D/XAG[01-01 00:00:07:499] (cmfwk_ipcu.c ipcu_sender_thread:650)send_from_noshared sneder id 1
+D/XAG[01-01 00:00:07:499] (cmfwk_ipcu.c ipcu_sender_thread:667)signal send resonse, id 1
+D/XAG[01-01 00:00:07:693] (MediaDeviceSC2000.cpp OpenDevice:151)OpenDevice success
+D/XAG[01-01 00:00:07:693] (CameraModule.cpp CameraModule_Init:77)CameraModule_Init success
+I/XAG[01-01 00:00:07:693] (Rtl_Ipcu.cpp Rtl_Ipcu_Init:36)init key 0x887766 get semid 0!
+I/XAG[01-01 00:00:07:696] (Rtl_Ipcu.cpp Rtl_Ipcu_Init:46)init key 0x887766 get msgid 0!
+D/XAG[01-01 00:00:07:696] (Rtl_Ipcu.cpp Rtl_Ipcu_Init:55)Rtl_Ipcu_Init success
+D/XAG[01-01 00:00:07:696] (XAG_Socket_Udp.cpp XAG_Udp_init:73)XAG_Udp_init success
+D/XAG[01-01 00:00:07:697] (ConcreteObserver_SystemMonitoring.cpp Init:89)observer registered SystemMonitoring
+D/XAG[01-01 00:00:07:697] (XAG_Socket_Tcp.cpp XAG_Tcp_init:77)XAG_Tcp_init success
+D/XAG[01-01 00:00:07:697] (ConcreteObserver_TcpFileTrans.cpp Init:96)observer registered TcpFileTrans
+D/XAG[01-01 00:00:07:697] (ConcreteObserver_UdpNetworkCheck.cpp Init:38)observer registered UdpNetworkCheck
+D/XAG[01-01 00:00:07:698] (XAG_Socket_Tcp.cpp XAG_Tcp_init:77)XAG_Tcp_init success
+D/XAG[01-01 00:00:07:698] (ConcreteObserver_TcpUpgrade.cpp Init:93)observer registered TcpUpgrade
+D/XAG[01-01 00:00:07:698] (XAG_Socket_Tcp.cpp XAG_Tcp_init:77)XAG_Tcp_init success
+D/XAG[01-01 00:00:07:698] (ConcreteObserver_GeneratingTool.cpp Init:89)observer registered TcpGenTool
+I/XAG[01-01 00:00:07:698] (ObserverManager.cpp ObserverManager_Init:111)thread watchdog register id is [0]
+D/XAG[01-01 00:00:07:701] (XAG_Socket_Tcp.cpp XAG_Tcp_init:77)XAG_Tcp_init success
+D/XAG[01-01 00:00:07:734] (Video_Proc_Main.cpp Video_Proc_Main_Init:116)Video Server Init success
+D/XAG[01-01 00:00:07:900] (Http_Client_Proxy.cpp Http_Client_Init:243)Http_Client_Init success
+D/XAG[01-01 00:00:07:901] (Udp_Client_Proxy.cpp Udp_Client_Init:144)Udp_Client_Init success
+D/XAG[01-01 00:00:07:901] (NetworkProxy.cpp Network_Init:60)Network_Init success
+D/XAG[01-01 00:00:07:902] (Serial_common.cpp Serial_common_init:305)Serial_common_init success
+I/XAG[01-01 00:00:07:903] (SerialProc.cpp SerialProc_Init:83)thread watchdog register id is [1]
+I/XAG[01-01 00:00:07:903] (CameraCtrl.cpp _CameraCtrl_Module_Interface:2776)CameraModule_Msg_Send event 7
+D/XAG[01-01 00:00:07:903] (SerialProc.cpp SerialProc_Init:85)SerialProc_Init success
+I/XAG[01-01 00:00:07:904] (CameraCtrl.cpp _CameraCtrl_Module_Interface:2776)CameraModule_Msg_Send event 7
+I/XAG[01-01 00:00:07:904] (CameraCtrl.cpp _CameraCtrl_Module_Interface:2776)CameraModule_Msg_Send event 7
+I/XAG[01-01 00:00:07:904] (FcProc.cpp _Camera_Config_Init:3249)---set IQ param ok, JPG quality 85---
+I/XAG[01-01 00:00:07:904] (FcProc.cpp _Camera_Config_Init:3262)Camera model is [0x05],
+---Camera model example:---
+0x01:20M Single Camera
+0x02:20M Gimbal Camera
+0x03:20M_Multi Camera
+0x04:20M_Multi Gimbal Camera
+0x05:20M_SD Gimbal Camera
+0x07:26M Gimbal Camera
+0x08:12M_SD Gimbal Camera
+0x09:20M Thermal Camera
+0x0A:20M_SD Single Camera
+
+D/XAG[01-01 00:00:07:903] (FcProc.cpp _Camera_Config_Init:3155)---onSetJPEGResolution:[5472] success!---
+D/XAG[01-01 00:00:07:904] (FcProc.cpp _Camera_Config_Init:3171)---Set IMX183 LDC On!---
+I/XAG[01-01 00:00:07:906] (FcProc.cpp FcProc_Init:269)thread watchdog register id is [2]
+I/XAG[01-01 00:00:07:907] (SerialCradle_head.cpp SerialCradle_Init:80)thread watchdog register id is [3]
+D/XAG[01-01 00:00:07:904] (FcProc.cpp _Camera_Config_Init:3236)---use default data IQ parm---
+D/XAG[01-01 00:00:07:905] (Camera_If.cpp CAMERA_Read_AF_Param:1318)camera use pwm focus mode
+D/XAG[01-01 00:00:07:906] (FcProc.cpp FcProc_Init:284)FcProc_Init success
+D/XAG[01-01 00:00:07:906] (Camera_If.cpp CAMERA_Read_AF_Param:1336)Read af param :[800]
+D/XAG[01-01 00:00:07:907] (cmfwk_ipcu.c FJ_IPCU_Open:1104)FJ_IPCU_Open: open /dev/snrtos1_1 (IPCU#9) 
+
+D/XAG[01-01 00:00:07:907] (Serial_common.cpp Serial_common_init:305)Serial_common_init success
+I/XAG[01-01 00:00:07:909] (TransferServer.cpp InitTransferServer:52)Server tranfer start
+I/XAG[01-01 00:00:07:910] (CameraCtrl.cpp CameraCtrl_Init:166)thread watchdog register id is [4]
+I/XAG[01-01 00:00:07:910] (CameraCtrl.cpp _CameraCtrl_Module_Interface:2776)CameraModule_Msg_Send event 16
+W/XAG[01-01 00:00:07:910] (CameraModule.cpp CameraModule_Msg_Send:386)data size is 0
+I/XAG[01-01 00:00:08:102] (file_comm.cpp SetDestAddr:556)set dest address 10.0.0.10, 9910!
+I/XAG[01-01 00:00:08:103] (file_comm.cpp SetSourAddr:584)set source address 0.0.0.0, 9910!
+I/XAG[01-01 00:00:08:104] (CameraCtrl.cpp _CameraCtrl_Module_Interface:2776)CameraModule_Msg_Send event 2
+W/XAG[01-01 00:00:08:104] (CameraModule.cpp CameraModule_Msg_Send:386)data size is 0
+D/XAG[01-01 00:00:07:908] (SerialCradle_head.cpp SerialCradle_Init:83)SerialCradle_Init success
+D/XAG[01-01 00:00:07:908] (SerialProxy.cpp Serial_Init:64)Serial_Init success
+D/XAG[01-01 00:00:07:908] (CreateTcpsock.cpp ListenTcpClient:108)Server listen success
+I/XAG[01-01 00:00:08:105] (main.cpp ShowAppInfo:90)	App Name:         sc2000_app
+	Code Version:     3.0.1
+	Camera Type:      imx183相机SD卡版本云台相机   
+	Sensor Type:      IMX183        
+	CPU Type:         ES3
+	DDR Type:         2GB
+	sofrware Version: 9.0.0.55
+	HardWare Version: 11.0.0.1
+	Git Commit Revision: 334c4b885e45f63f28df0370725644c0ea9c5373
+	Git Commit Date:  Fri Jul 5 16:05:21 2024 +0800
+	Compile Date: Jul  5 2024 08:19:16
+
+D/XAG[01-01 00:00:07:908] (NetBasicServer.cpp InitBasicServer:46)Server create start
+I/XAG[01-01 00:00:08:106] (Http_Client_Proxy.cpp Process:67)Camera HTTP client thread starts success
+D/XAG[01-01 00:00:07:909] (ProduceThreadPool.cpp InitThreadPool:39)Init Thread Pool Success
+D/XAG[01-01 00:00:07:909] (CreateTcpsock.cpp ListenTcpClient:108)Server listen success
+D/XAG[01-01 00:00:07:909] (NetBasicServer.cpp InitBasicServer:51)Server tranfer start
+D/XAG[01-01 00:00:07:910] (cmfwk_ipcu.c FJ_IPCU_Open:1104)FJ_IPCU_Open: open /dev/snrtos1_0 (IPCU#8) 
+
+D/XAG[01-01 00:00:07:068] (cmfwk_ipcu.c FJ_IPCU_Send:1229)FJ_IPCU_Send: id=9 pdata=0x6511d868 length=1040 sync=1 
+
+D/XAG[01-01 00:00:08:068] (cmfwk_ipcu.c ipcu_sender_thread:650)send_from_noshared sneder id 9
+D/XAG[01-01 00:00:08:105] (CameraCtrl.cpp CameraCtrl_Init:199)CameraCtrl_Init success
+D/XAG[01-01 00:00:08:105] (AppsCtrl.cpp AppsCtrl_Init:39)AppsCtrl_Init success
+W/XAG[01-01 00:00:08:433] (CameraModule.cpp CameraModule_Msg_Send:386)data size is 0
+I/XAG[01-01 00:00:08:433] (thread_pool.cpp MainProcess:431)The file duplicate thread start
+I/XAG[01-01 00:00:08:434] (thread_pool.cpp MainProcess:434)The main thread startup file server
+I/XAG[01-01 00:00:08:434] (thread_pool.cpp Init:412)The main thread communication initializes the success
+D/XAG[01-01 00:00:08:433] (FcProc.cpp FcProc_Cradle_TransferData_FromCradle:326)#############################################
+D/XAG[01-01 00:00:08:433] (FcProc.cpp FcProc_Cradle_TransferData_FromCradle:331)gimbal version is 16777217: 1.0.0.1
+D/XAG[01-01 00:00:08:433] (FcProc.cpp FcProc_Cradle_TransferData_FromCradle:332)#############################################
+I/XAG[01-01 00:00:08:438] (thread_pool.cpp MainProcess:168)The child thread{Ser_0}Start the: 
+I/XAG[01-01 00:00:08:439] (thread_pool.cpp MainProcess:168)The child thread{Ser_1}Start the: 
+I/XAG[01-01 00:00:08:441] (thread_pool.cpp MainProcess:168)The child thread{Ser_2}Start the: 
+I/XAG[01-01 00:00:08:442] (thread_pool.cpp MainProcess:168)The child thread{Ser_3}Start the: 
+I/XAG[01-01 00:00:08:445] (thread_pool.cpp MainProcess:168)The child thread{Ser_4}Start the: 
+I/XAG[01-01 00:00:08:447] (thread_pool.cpp MainProcess:168)The child thread{Ser_5}Start the: 
+I/XAG[01-01 00:00:08:447] (thread_pool.cpp MainProcess:168)The child thread{Ser_6}Start the: 
+I/XAG[01-01 00:00:08:447] (thread_pool.cpp TaskThreadInit:532)The child thread to create success
+I/XAG[01-01 00:00:08:450] (thread_pool.cpp MainProcess:168)The child thread{Ser_7}Start the: 
+I/XAG[01-01 00:00:08:450] (thread_pool.cpp MainProcess:168)The child thread{Ser_8}Start the: 
+D/XAG[01-01 00:00:08:458] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; 28, 1, 22; 0, 0, -2;
+D/XAG[01-01 00:00:08:462] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -20, -1, 17; 0, 0, -2;
+I/XAG[01-01 00:00:08:464] (thread_pool.cpp MainProcess:168)The child thread{Ser_9}Start the: 
+D/XAG[01-01 00:00:08:557] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -11, 6, 44; 0, -1, -2;
+D/XAG[01-01 00:00:08:664] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -15, -2, 18; 0, 0, -2;
+D/XAG[01-01 00:00:08:864] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -24, -1, 40; 2, 0, -4;
+D/XAG[01-01 00:00:08:958] (cmfwk_ipcu.c ipcu_sender_thread:667)signal send resonse, id 9
+D/XAG[01-01 00:00:08:959] (cmfwk_ipcu.c FJ_IPCU_Close:1165)FJ_IPCU_Close: close /dev/snrtos1_1 (IPCU#9) 
+
+D/XAG[01-01 00:00:08:959] (cmfwk_ipcu.c stop_receiving_channel:881)stop_receiving_channel: IPCU#8: begin 
+
+D/XAG[01-01 00:00:08:959] (cmfwk_ipcu.c ipcu_receiver_thread:729)ipcu_receiver_thread: IPCU#8: cancelled IPCU_IOCTL_RECVMSG 
+
+I/XAG[01-01 00:00:08:961] (CameraModule.cpp ParserCmdBuffer:255)parse msg CAMERA_MODULE_SET_CONFIG
+W/XAG[01-01 00:00:08:961] (MediaDeviceSC2000.cpp Camera_Updata_Config:419)CAMERA_PARAM_CONFIG_S: 
+W/XAG[01-01 00:00:08:961] (MediaDeviceSC2000.cpp Camera_Updata_Config:420)	 bWorkMode: 0, WorkMode: 0;
+W/XAG[01-01 00:00:08:962] (MediaDeviceSC2000.cpp Camera_Updata_Config:421)	 bResolution_H265: 0, videoSize_H265: 0;
+W/XAG[01-01 00:00:08:962] (MediaDeviceSC2000.cpp Camera_Updata_Config:422)	 bResolution_H264_View: 0, videoSize_H264_View: 0;
+W/XAG[01-01 00:00:08:962] (MediaDeviceSC2000.cpp Camera_Updata_Config:423)	 bResolution_H264_Record: 0, videoSize_H264_Record: 0;
+W/XAG[01-01 00:00:08:962] (MediaDeviceSC2000.cpp Camera_Updata_Config:424)	 bResolution_JPG: 1, jpegSize: 5472;
+W/XAG[01-01 00:00:08:963] (MediaDeviceSC2000.cpp Camera_Updata_Config:425)	 bFPS_H265: 0, H265_FPS: 0;
+W/XAG[01-01 00:00:08:963] (MediaDeviceSC2000.cpp Camera_Updata_Config:426)	 bFPS_H264: 0, H264_FPS: 0;
+W/XAG[01-01 00:00:08:963] (MediaDeviceSC2000.cpp Camera_Updata_Config:427)	 bVIEW_FPS: 0, VIEW_FPS: 0;
+W/XAG[01-01 00:00:08:963] (MediaDeviceSC2000.cpp Camera_Updata_Config:428)	 bBitrate_H265: 0, H265_bitrate: 0;
+W/XAG[01-01 00:00:08:964] (MediaDeviceSC2000.cpp Camera_Updata_Config:429)	 bBitrate_H264_view: 0, H264_bitrate_view: 0;
+W/XAG[01-01 00:00:08:964] (MediaDeviceSC2000.cpp Camera_Updata_Config:430)	 bBitrate_H264_record: 0, H264_bitrate_record: 0;
+W/XAG[01-01 00:00:08:964] (MediaDeviceSC2000.cpp Camera_Updata_Config:431)	 bLDC: 0, LDC: 0;
+W/XAG[01-01 00:00:08:964] (MediaDeviceSC2000.cpp Camera_Updata_Config:432)	 bDwonSnap: 0, downSnapMode: 0;
+W/XAG[01-01 00:00:08:965] (MediaDeviceSC2000.cpp Camera_Updata_Config:433)	 bPreview: 0, preivewMode: 0;
+W/XAG[01-01 00:00:08:965] (MediaDeviceSC2000.cpp Camera_Updata_Config:435)	 bVideoCode: 0, VideoCode: 0;
+D/XAG[01-01 00:00:08:960] (cmfwk_ipcu.c stop_receiving_channel:912)stop_receiving_channel: IPCU#8: finished 
+
+D/XAG[01-01 00:00:08:961] (cmfwk_ipcu.c FJ_IPCU_Close:1165)FJ_IPCU_Close: close /dev/snrtos1_0 (IPCU#8) 
+I/XAG[01-01 00:00:08:966] (ipcu.cpp IF_IPCU_cmd_rcv_callback:279)recv response
+
+D/XAG[01-01 00:00:08:961] (CameraModule.cpp ParserCmdBuffer:224)eCameraType :[0x7]
+D/XAG[01-01 00:00:08:965] (cmfwk_ipcu.c FJ_IPCU_Send:1229)FJ_IPCU_Send: id=1 pdata=0x6511db88 length=40 sync=1 
+
+D/XAG[01-01 00:00:08:966] (cmfwk_ipcu.c ipcu_sender_thread:650)send_from_noshared sneder id 1
+D/XAG[01-01 00:00:08:966] (cmfwk_ipcu.c ipcu_sender_thread:667)signal send resonse, id 1
+D/XAG[01-01 00:00:08:967] (cmfwk_ipcu.c FJ_IPCU_Send:1229)FJ_IPCU_Send: id=1 pdata=0x6511db88 length=40 sync=1 
+
+D/XAG[01-01 00:00:08:968] (cmfwk_ipcu.c ipcu_sender_thread:650)send_from_noshared sneder id 1
+I/XAG[01-01 00:00:08:969] (ipcu.cpp IF_IPCU_cmd_rcv_callback:279)recv response
+D/XAG[01-01 00:00:08:968] (cmfwk_ipcu.c ipcu_sender_thread:667)signal send resonse, id 1
+I/XAG[01-01 00:00:08:969] (CameraModule.cpp ParserCmdBuffer:255)parse msg CAMERA_MODULE_SET_CONFIG
+W/XAG[01-01 00:00:08:969] (MediaDeviceSC2000.cpp Camera_Updata_Config:419)CAMERA_PARAM_CONFIG_S: 
+W/XAG[01-01 00:00:08:970] (MediaDeviceSC2000.cpp Camera_Updata_Config:420)	 bWorkMode: 0, WorkMode: 0;
+W/XAG[01-01 00:00:08:970] (MediaDeviceSC2000.cpp Camera_Updata_Config:421)	 bResolution_H265: 0, videoSize_H265: 0;
+W/XAG[01-01 00:00:08:970] (MediaDeviceSC2000.cpp Camera_Updata_Config:422)	 bResolution_H264_View: 0, videoSize_H264_View: 0;
+W/XAG[01-01 00:00:08:970] (MediaDeviceSC2000.cpp Camera_Updata_Config:423)	 bResolution_H264_Record: 0, videoSize_H264_Record: 0;
+W/XAG[01-01 00:00:08:971] (MediaDeviceSC2000.cpp Camera_Updata_Config:424)	 bResolution_JPG: 0, jpegSize: 0;
+W/XAG[01-01 00:00:08:971] (MediaDeviceSC2000.cpp Camera_Updata_Config:425)	 bFPS_H265: 0, H265_FPS: 0;
+W/XAG[01-01 00:00:08:971] (MediaDeviceSC2000.cpp Camera_Updata_Config:426)	 bFPS_H264: 0, H264_FPS: 0;
+W/XAG[01-01 00:00:09:299] (MediaDeviceSC2000.cpp Camera_Updata_Config:427)	 bVIEW_FPS: 0, VIEW_FPS: 0;
+W/XAG[01-01 00:00:09:300] (MediaDeviceSC2000.cpp Camera_Updata_Config:428)	 bBitrate_H265: 0, H265_bitrate: 0;
+W/XAG[01-01 00:00:09:300] (MediaDeviceSC2000.cpp Camera_Updata_Config:429)	 bBitrate_H264_view: 0, H264_bitrate_view: 0;
+W/XAG[01-01 00:00:09:300] (MediaDeviceSC2000.cpp Camera_Updata_Config:430)	 bBitrate_H264_record: 0, H264_bitrate_record: 0;
+W/XAG[01-01 00:00:09:300] (MediaDeviceSC2000.cpp Camera_Updata_Config:431)	 bLDC: 1, LDC: 1;
+W/XAG[01-01 00:00:09:301] (MediaDeviceSC2000.cpp Camera_Updata_Config:432)	 bDwonSnap: 0, downSnapMode: 0;
+W/XAG[01-01 00:00:09:301] (MediaDeviceSC2000.cpp Camera_Updata_Config:433)	 bPreview: 0, preivewMode: 0;
+W/XAG[01-01 00:00:09:301] (MediaDeviceSC2000.cpp Camera_Updata_Config:435)	 bVideoCode: 0, VideoCode: 0;
+I/XAG[01-01 00:00:09:302] (Udp_Client_Proxy.cpp HeartBeat:573)udp send heartbeat to cams
+I/XAG[01-01 00:00:09:302] (ipcu.cpp IF_IPCU_cmd_rcv_callback:279)recv response
+D/XAG[01-01 00:00:09:301] (cmfwk_ipcu.c FJ_IPCU_Send:1229)FJ_IPCU_Send: id=1 pdata=0x6511db88 length=40 sync=1 
+
+D/XAG[01-01 00:00:09:302] (cmfwk_ipcu.c ipcu_sender_thread:650)send_from_noshared sneder id 1
+D/XAG[01-01 00:00:09:302] (cmfwk_ipcu.c ipcu_sender_thread:667)signal send resonse, id 1
+D/XAG[01-01 00:00:09:303] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -10, 3, -5; 1, 0, 0;
+I/XAG[01-01 00:00:09:304] (CameraModule.cpp ParserCmdBuffer:255)parse msg CAMERA_MODULE_SET_CONFIG
+W/XAG[01-01 00:00:09:304] (MediaDeviceSC2000.cpp Camera_Updata_Config:419)CAMERA_PARAM_CONFIG_S: 
+W/XAG[01-01 00:00:09:305] (MediaDeviceSC2000.cpp Camera_Updata_Config:420)	 bWorkMode: 0, WorkMode: 0;
+W/XAG[01-01 00:00:09:305] (MediaDeviceSC2000.cpp Camera_Updata_Config:421)	 bResolution_H265: 0, videoSize_H265: 0;
+W/XAG[01-01 00:00:09:305] (MediaDeviceSC2000.cpp Camera_Updata_Config:422)	 bResolution_H264_View: 0, videoSize_H264_View: 0;
+W/XAG[01-01 00:00:09:305] (MediaDeviceSC2000.cpp Camera_Updata_Config:423)	 bResolution_H264_Record: 0, videoSize_H264_Record: 0;
+D/XAG[01-01 00:00:09:304] (Camera_If.cpp CAMERA_Updata_Config:388)RTOS LDC Value:[1]
+W/XAG[01-01 00:00:09:306] (MediaDeviceSC2000.cpp Camera_Updata_Config:424)	 bResolution_JPG: 0, jpegSize: 0;
+W/XAG[01-01 00:00:09:306] (MediaDeviceSC2000.cpp Camera_Updata_Config:425)	 bFPS_H265: 0, H265_FPS: 0;
+W/XAG[01-01 00:00:09:307] (MediaDeviceSC2000.cpp Camera_Updata_Config:426)	 bFPS_H264: 0, H264_FPS: 0;
+W/XAG[01-01 00:00:09:307] (MediaDeviceSC2000.cpp Camera_Updata_Config:427)	 bVIEW_FPS: 0, VIEW_FPS: 0;
+W/XAG[01-01 00:00:09:307] (MediaDeviceSC2000.cpp Camera_Updata_Config:428)	 bBitrate_H265: 0, H265_bitrate: 0;
+W/XAG[01-01 00:00:09:307] (MediaDeviceSC2000.cpp Camera_Updata_Config:429)	 bBitrate_H264_view: 0, H264_bitrate_view: 0;
+W/XAG[01-01 00:00:09:308] (MediaDeviceSC2000.cpp Camera_Updata_Config:430)	 bBitrate_H264_record: 0, H264_bitrate_record: 0;
+W/XAG[01-01 00:00:09:308] (MediaDeviceSC2000.cpp Camera_Updata_Config:431)	 bLDC: 0, LDC: 0;
+W/XAG[01-01 00:00:09:308] (MediaDeviceSC2000.cpp Camera_Updata_Config:432)	 bDwonSnap: 0, downSnapMode: 0;
+W/XAG[01-01 00:00:09:309] (MediaDeviceSC2000.cpp Camera_Updata_Config:433)	 bPreview: 0, preivewMode: 0;
+W/XAG[01-01 00:00:09:309] (MediaDeviceSC2000.cpp Camera_Updata_Config:435)	 bVideoCode: 0, VideoCode: 0;
+D/XAG[01-01 00:00:09:309] (Camera_If.cpp CAMERA_Updata_Config:448)Camera set max_shutter time:[160]
+D/XAG[01-01 00:00:09:314] (cmfwk_ipcu.c FJ_IPCU_Send:1229)FJ_IPCU_Send: id=1 pdata=0x6511db88 length=40 sync=1 
+
+D/XAG[01-01 00:00:09:315] (cmfwk_ipcu.c ipcu_sender_thread:650)send_from_noshared sneder id 1
+I/XAG[01-01 00:00:09:315] (ipcu.cpp IF_IPCU_cmd_rcv_callback:279)recv response
+I/XAG[01-01 00:00:09:316] (ipcu.cpp IF_IPCU_cmd_rcv_callback:279)recv response
+D/XAG[01-01 00:00:09:315] (cmfwk_ipcu.c ipcu_sender_thread:667)signal send resonse, id 1
+D/XAG[01-01 00:00:09:316] (Camera_If.cpp CAMERA_Updata_Config:483)Camera set max_iso:[1600]
+D/XAG[01-01 00:00:09:316] (cmfwk_ipcu.c FJ_IPCU_Send:1229)FJ_IPCU_Send: id=1 pdata=0x6511db88 length=40 sync=1 
+
+D/XAG[01-01 00:00:09:316] (cmfwk_ipcu.c ipcu_sender_thread:650)send_from_noshared sneder id 1
+D/XAG[01-01 00:00:09:316] (cmfwk_ipcu.c ipcu_sender_thread:667)signal send resonse, id 1
+D/XAG[01-01 00:00:09:644] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -11, -3, 0; 2, 0, -1;
+D/XAG[01-01 00:00:09:650] (cmfwk_ipcu.c FJ_IPCU_Send:1229)FJ_IPCU_Send: id=1 pdata=0x6511db88 length=40 sync=1 
+
+D/XAG[01-01 00:00:09:650] (cmfwk_ipcu.c ipcu_sender_thread:650)send_from_noshared sneder id 1
+I/XAG[01-01 00:00:09:651] (ipcu.cpp IF_IPCU_cmd_rcv_callback:279)recv response
+D/XAG[01-01 00:00:09:650] (cmfwk_ipcu.c ipcu_sender_thread:667)signal send resonse, id 1
+D/XAG[01-01 00:00:09:658] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -35, 0, 27; 4, 0, -1;
+D/XAG[01-01 00:00:09:661] (Camera_If.cpp CAMERA_Updata_Config:498)Camera set saturation:[0]
+I/XAG[01-01 00:00:09:662] (ipcu.cpp IF_IPCU_cmd_rcv_callback:279)recv response
+D/XAG[01-01 00:00:09:661] (cmfwk_ipcu.c FJ_IPCU_Send:1229)FJ_IPCU_Send: id=1 pdata=0x6511db88 length=40 sync=1 
+I/XAG[01-01 00:00:09:663] (ipcu.cpp IF_IPCU_cmd_rcv_callback:279)recv response
+
+I/XAG[01-01 00:00:09:664] (ipcu.cpp IF_IPCU_cmd_rcv_callback:279)recv response
+D/XAG[01-01 00:00:09:661] (cmfwk_ipcu.c ipcu_sender_thread:650)send_from_noshared sneder id 1
+I/XAG[01-01 00:00:09:665] (ipcu.cpp IF_IPCU_cmd_rcv_callback:279)recv response
+D/XAG[01-01 00:00:09:661] (cmfwk_ipcu.c ipcu_sender_thread:667)signal send resonse, id 1
+I/XAG[01-01 00:00:09:666] (ipcu.cpp IF_IPCU_cmd_rcv_callback:279)recv response
+D/XAG[01-01 00:00:09:662] (Camera_If.cpp CAMERA_Updata_Config:506)Camera set brightness:[0]
+I/XAG[01-01 00:00:09:667] (ipcu.cpp IF_IPCU_cmd_rcv_callback:279)recv response
+D/XAG[01-01 00:00:09:662] (cmfwk_ipcu.c FJ_IPCU_Send:1229)FJ_IPCU_Send: id=1 pdata=0x6511db88 length=40 sync=1 
+
+D/XAG[01-01 00:00:09:662] (cmfwk_ipcu.c ipcu_sender_thread:650)send_from_noshared sneder id 1
+D/XAG[01-01 00:00:09:663] (cmfwk_ipcu.c ipcu_sender_thread:667)signal send resonse, id 1
+D/XAG[01-01 00:00:09:663] (Camera_If.cpp CAMERA_Updata_Config:518)Camera set sharpness:[0]
+D/XAG[01-01 00:00:09:663] (cmfwk_ipcu.c FJ_IPCU_Send:1229)FJ_IPCU_Send: id=1 pdata=0x6511db88 length=40 sync=1 
+
+D/XAG[01-01 00:00:09:663] (cmfwk_ipcu.c ipcu_sender_thread:650)send_from_noshared sneder id 1
+D/XAG[01-01 00:00:09:664] (cmfwk_ipcu.c ipcu_sender_thread:667)signal send resonse, id 1
+D/XAG[01-01 00:00:09:664] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -24, -2, 47; 2, 0, 0;
+D/XAG[01-01 00:00:09:664] (Camera_If.cpp CAMERA_Updata_Config:526)Camera set wdr mode:[0]
+D/XAG[01-01 00:00:09:664] (cmfwk_ipcu.c FJ_IPCU_Send:1229)FJ_IPCU_Send: id=1 pdata=0x6511db88 length=40 sync=1 
+
+D/XAG[01-01 00:00:09:665] (cmfwk_ipcu.c ipcu_sender_thread:650)send_from_noshared sneder id 1
+D/XAG[01-01 00:00:09:665] (cmfwk_ipcu.c ipcu_sender_thread:667)signal send resonse, id 1
+D/XAG[01-01 00:00:09:665] (Camera_If.cpp CAMERA_Updata_Config:533)Camera set wdr level:[0]
+D/XAG[01-01 00:00:09:665] (cmfwk_ipcu.c FJ_IPCU_Send:1229)FJ_IPCU_Send: id=1 pdata=0x6511db88 length=40 sync=1 
+
+D/XAG[01-01 00:00:09:666] (cmfwk_ipcu.c ipcu_sender_thread:650)send_from_noshared sneder id 1
+D/XAG[01-01 00:00:09:666] (cmfwk_ipcu.c ipcu_sender_thread:667)signal send resonse, id 1
+D/XAG[01-01 00:00:09:666] (Camera_If.cpp CAMERA_Updata_Config:540)Camera set wdr contrast:[5]
+D/XAG[01-01 00:00:09:666] (cmfwk_ipcu.c FJ_IPCU_Send:1229)FJ_IPCU_Send: id=1 pdata=0x6511db88 length=40 sync=1 
+
+D/XAG[01-01 00:00:09:667] (cmfwk_ipcu.c ipcu_sender_thread:650)send_from_noshared sneder id 1
+I/XAG[01-01 00:00:09:678] (ipcu.cpp IF_IPCU_cmd_rcv_callback:279)recv response
+D/XAG[01-01 00:00:09:667] (cmfwk_ipcu.c ipcu_sender_thread:667)signal send resonse, id 1
+D/XAG[01-01 00:00:09:677] (Camera_If.cpp CAMERA_Updata_Config:549)Camera set ae mode:[2]
+D/XAG[01-01 00:00:09:677] (cmfwk_ipcu.c FJ_IPCU_Send:1229)FJ_IPCU_Send: id=1 pdata=0x6511db88 length=40 sync=1 
+
+D/XAG[01-01 00:00:09:677] (cmfwk_ipcu.c ipcu_sender_thread:650)send_from_noshared sneder id 1
+D/XAG[01-01 00:00:09:678] (cmfwk_ipcu.c ipcu_sender_thread:667)signal send resonse, id 1
+D/XAG[01-01 00:00:10:000] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -17, -1, 20; 0, 0, -1;
+D/XAG[01-01 00:00:10:001] (Camera_If.cpp CAMERA_Updata_Config:556)Camera set ae target:[13]
+I/XAG[01-01 00:00:10:002] (ipcu.cpp IF_IPCU_cmd_rcv_callback:279)recv response
+D/XAG[01-01 00:00:10:001] (cmfwk_ipcu.c FJ_IPCU_Send:1229)FJ_IPCU_Send: id=1 pdata=0x6511db88 length=40 sync=1 
+
+D/XAG[01-01 00:00:10:002] (cmfwk_ipcu.c ipcu_sender_thread:650)send_from_noshared sneder id 1
+D/XAG[01-01 00:00:10:002] (cmfwk_ipcu.c ipcu_sender_thread:667)signal send resonse, id 1
+D/XAG[01-01 00:00:10:012] (Camera_If.cpp CAMERA_Updata_Config:563)Camera set ae speed:[100]
+D/XAG[01-01 00:00:10:013] (cmfwk_ipcu.c FJ_IPCU_Send:1229)FJ_IPCU_Send: id=1 pdata=0x6511db88 length=40 sync=1 
+I/XAG[01-01 00:00:10:013] (ipcu.cpp IF_IPCU_cmd_rcv_callback:279)recv response
+
+D/XAG[01-01 00:00:10:013] (cmfwk_ipcu.c ipcu_sender_thread:650)send_from_noshared sneder id 1
+I/XAG[01-01 00:00:10:014] (ipcu.cpp IF_IPCU_cmd_rcv_callback:279)recv response
+D/XAG[01-01 00:00:10:013] (cmfwk_ipcu.c ipcu_sender_thread:667)signal send resonse, id 1
+D/XAG[01-01 00:00:10:013] (Camera_If.cpp CAMERA_Updata_Config:575)Camera set AWB mode:[2]
+I/XAG[01-01 00:00:10:015] (ipcu.cpp IF_IPCU_cmd_rcv_callback:279)recv response
+D/XAG[01-01 00:00:10:014] (cmfwk_ipcu.c FJ_IPCU_Send:1229)FJ_IPCU_Send: id=1 pdata=0x6511db88 length=40 sync=1 
+I/XAG[01-01 00:00:10:016] (ipcu.cpp IF_IPCU_cmd_rcv_callback:279)recv response
+
+D/XAG[01-01 00:00:10:014] (cmfwk_ipcu.c ipcu_sender_thread:650)send_from_noshared sneder id 1
+I/XAG[01-01 00:00:10:017] (ipcu.cpp IF_IPCU_cmd_rcv_callback:279)recv response
+D/XAG[01-01 00:00:10:014] (cmfwk_ipcu.c ipcu_sender_thread:667)signal send resonse, id 1
+D/XAG[01-01 00:00:10:014] (Camera_If.cpp CAMERA_Updata_Config:594)Camera set video resolution:[4]
+D/XAG[01-01 00:00:10:014] (cmfwk_ipcu.c FJ_IPCU_Send:1229)FJ_IPCU_Send: id=1 pdata=0x6511db88 length=40 sync=1 
+
+D/XAG[01-01 00:00:10:015] (cmfwk_ipcu.c ipcu_sender_thread:650)send_from_noshared sneder id 1
+D/XAG[01-01 00:00:10:015] (cmfwk_ipcu.c ipcu_sender_thread:667)signal send resonse, id 1
+D/XAG[01-01 00:00:10:015] (Camera_If.cpp CAMERA_Updata_Config:603)Camera set jpgQaul:[85]
+D/XAG[01-01 00:00:10:015] (cmfwk_ipcu.c FJ_IPCU_Send:1229)FJ_IPCU_Send: id=1 pdata=0x6511db88 length=40 sync=1 
+
+D/XAG[01-01 00:00:10:016] (cmfwk_ipcu.c ipcu_sender_thread:650)send_from_noshared sneder id 1
+D/XAG[01-01 00:00:10:016] (cmfwk_ipcu.c ipcu_sender_thread:667)signal send resonse, id 1
+D/XAG[01-01 00:00:10:016] (Camera_If.cpp CAMERA_Updata_Config:612)Camera set aperture value:[0]
+D/XAG[01-01 00:00:10:016] (cmfwk_ipcu.c FJ_IPCU_Send:1229)FJ_IPCU_Send: id=1 pdata=0x6511db88 length=40 sync=1 
+
+D/XAG[01-01 00:00:10:016] (cmfwk_ipcu.c ipcu_sender_thread:650)send_from_noshared sneder id 1
+D/XAG[01-01 00:00:10:017] (cmfwk_ipcu.c ipcu_sender_thread:667)signal send resonse, id 1
+D/XAG[01-01 00:00:10:017] (CameraModule.cpp ParserCmdBuffer:224)eCameraType :[0x10]
+D/XAG[01-01 00:00:10:017] (cmfwk_ipcu.c FJ_IPCU_Open:1104)FJ_IPCU_Open: open /dev/snrtos1_1 (IPCU#9) 
+
+D/XAG[01-01 00:00:10:018] (cmfwk_ipcu.c FJ_IPCU_Open:1104)FJ_IPCU_Open: open /dev/snrtos1_0 (IPCU#8) 
+
+D/XAG[01-01 00:00:10:018] (cmfwk_ipcu.c FJ_IPCU_Send:1229)FJ_IPCU_Send: id=9 pdata=0x6511d820 length=1040 sync=1 
+
+D/XAG[01-01 00:00:10:018] (cmfwk_ipcu.c ipcu_sender_thread:650)send_from_noshared sneder id 9
+D/XAG[01-01 00:00:10:063] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; 17, 0, 15; 0, 0, 0;
+D/XAG[01-01 00:00:10:120] (cmfwk_ipcu.c ipcu_sender_thread:667)signal send resonse, id 9
+D/XAG[01-01 00:00:10:120] (cmfwk_ipcu.c FJ_IPCU_Close:1165)FJ_IPCU_Close: close /dev/snrtos1_1 (IPCU#9) 
+
+D/XAG[01-01 00:00:10:121] (cmfwk_ipcu.c stop_receiving_channel:881)stop_receiving_channel: IPCU#8: begin 
+
+D/XAG[01-01 00:00:10:121] (cmfwk_ipcu.c ipcu_receiver_thread:729)ipcu_receiver_thread: IPCU#8: cancelled IPCU_IOCTL_RECVMSG 
+
+D/XAG[01-01 00:00:10:121] (cmfwk_ipcu.c stop_receiving_channel:912)stop_receiving_channel: IPCU#8: finished 
+
+D/XAG[01-01 00:00:10:121] (cmfwk_ipcu.c FJ_IPCU_Close:1165)FJ_IPCU_Close: close /dev/snrtos1_0 (IPCU#8) 
+
+D/XAG[01-01 00:00:10:121] (CameraModule.cpp ParserCmdBuffer:224)eCameraType :[0x2]
+D/XAG[01-01 00:00:10:122] (cmfwk_ipcu.c FJ_IPCU_Open:1104)FJ_IPCU_Open: open /dev/snrtos0_7 (IPCU#7) 
+
+D/XAG[01-01 00:00:10:122] (cmfwk_ipcu.c FJ_IPCU_Open:1104)FJ_IPCU_Open: open /dev/snrtos0_6 (IPCU#6) 
+
+D/XAG[01-01 00:00:10:123] (cmfwk_ipcu.c FJ_IPCU_Send:1229)FJ_IPCU_Send: id=1 pdata=0x6511dad0 length=40 sync=1 
+
+D/XAG[01-01 00:00:10:123] (cmfwk_ipcu.c ipcu_sender_thread:650)send_from_noshared sneder id 1
+D/XAG[01-01 00:00:10:264] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -7, -3, 36; 0, 0, -1;
+D/XAG[01-01 00:00:10:464] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -4, 2, 19; 0, 0, -2;
+I/XAG[01-01 00:00:10:514] (ipcu.cpp IF_IPCU_cmd_rcv_callback:279)recv response
+D/XAG[01-01 00:00:10:514] (cmfwk_ipcu.c ipcu_sender_thread:667)signal send resonse, id 1
+D/XAG[01-01 00:00:10:515] (cmfwk_ipcu.c FJ_IPCU_Send:1229)FJ_IPCU_Send: id=1 pdata=0x6511dad0 length=40 sync=1 
+
+D/XAG[01-01 00:00:10:515] (cmfwk_ipcu.c ipcu_sender_thread:650)send_from_noshared sneder id 1
+I/XAG[01-01 00:00:10:516] (ipcu.cpp IF_IPCU_cmd_rcv_callback:279)recv response
+I/XAG[01-01 00:00:10:516] (MediaDeviceSC2000.cpp Camera_Stream_View_Start:291)CAMERA_view_start 
+D/XAG[01-01 00:00:10:515] (cmfwk_ipcu.c ipcu_sender_thread:667)signal send resonse, id 1
+D/XAG[01-01 00:00:10:516] (CameraModule.cpp ParserCmdBuffer:224)eCameraType :[0x22]
+D/XAG[01-01 00:00:10:516] (cmfwk_ipcu.c FJ_IPCU_Open:1104)FJ_IPCU_Open: open /dev/snrtos1_1 (IPCU#9) 
+
+D/XAG[01-01 00:00:10:517] (cmfwk_ipcu.c FJ_IPCU_Open:1104)FJ_IPCU_Open: open /dev/snrtos1_0 (IPCU#8) 
+
+D/XAG[01-01 00:00:10:517] (cmfwk_ipcu.c FJ_IPCU_Send:1229)FJ_IPCU_Send: id=9 pdata=0x6511d848 length=1040 sync=1 
+
+D/XAG[01-01 00:00:10:518] (cmfwk_ipcu.c ipcu_sender_thread:650)send_from_noshared sneder id 9
+D/XAG[01-01 00:00:10:518] (cmfwk_ipcu.c ipcu_sender_thread:667)signal send resonse, id 9
+D/XAG[01-01 00:00:10:519] (cmfwk_ipcu.c FJ_IPCU_Close:1165)FJ_IPCU_Close: close /dev/snrtos1_1 (IPCU#9) 
+
+D/XAG[01-01 00:00:10:519] (cmfwk_ipcu.c stop_receiving_channel:881)stop_receiving_channel: IPCU#8: begin 
+
+D/XAG[01-01 00:00:10:519] (cmfwk_ipcu.c ipcu_receiver_thread:729)ipcu_receiver_thread: IPCU#8: cancelled IPCU_IOCTL_RECVMSG 
+
+D/XAG[01-01 00:00:10:520] (cmfwk_ipcu.c stop_receiving_channel:912)stop_receiving_channel: IPCU#8: finished 
+
+D/XAG[01-01 00:00:10:520] (cmfwk_ipcu.c FJ_IPCU_Close:1165)FJ_IPCU_Close: close /dev/snrtos1_0 (IPCU#8) 
+
+D/XAG[01-01 00:00:10:520] (CameraModule.cpp ParserCmdBuffer:224)eCameraType :[0x23]
+D/XAG[01-01 00:00:10:520] (cmfwk_ipcu.c FJ_IPCU_Open:1104)FJ_IPCU_Open: open /dev/snrtos1_1 (IPCU#9) 
+
+D/XAG[01-01 00:00:10:520] (cmfwk_ipcu.c FJ_IPCU_Open:1104)FJ_IPCU_Open: open /dev/snrtos1_0 (IPCU#8) 
+
+D/XAG[01-01 00:00:10:521] (cmfwk_ipcu.c FJ_IPCU_Send:1229)FJ_IPCU_Send: id=9 pdata=0x6511d7b8 length=1040 sync=1 
+
+D/XAG[01-01 00:00:10:521] (cmfwk_ipcu.c ipcu_sender_thread:650)send_from_noshared sneder id 9
+D/XAG[01-01 00:00:10:524] (cmfwk_ipcu.c ipcu_sender_thread:667)signal send resonse, id 9
+D/XAG[01-01 00:00:10:525] (cmfwk_ipcu.c FJ_IPCU_Close:1165)FJ_IPCU_Close: close /dev/snrtos1_1 (IPCU#9) 
+
+D/XAG[01-01 00:00:10:525] (cmfwk_ipcu.c stop_receiving_channel:881)stop_receiving_channel: IPCU#8: begin 
+
+D/XAG[01-01 00:00:10:525] (cmfwk_ipcu.c ipcu_receiver_thread:729)ipcu_receiver_thread: IPCU#8: cancelled IPCU_IOCTL_RECVMSG 
+
+D/XAG[01-01 00:00:10:525] (cmfwk_ipcu.c stop_receiving_channel:912)stop_receiving_channel: IPCU#8: finished 
+
+D/XAG[01-01 00:00:10:526] (cmfwk_ipcu.c FJ_IPCU_Close:1165)FJ_IPCU_Close: close /dev/snrtos1_0 (IPCU#8) 
+
+D/XAG[01-01 00:00:10:664] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; 0, 7, 44; 2, 0, -2;
+D/XAG[01-01 00:00:10:864] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -2, 3, 31; 2, 0, -3;
+D/XAG[01-01 00:00:11:063] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -40, 0, 10; 2, 0, -1;
+I/XAG[01-01 00:00:11:206] (Udp_Client_Proxy.cpp HeartBeat:573)udp send heartbeat to cams
+D/XAG[01-01 00:00:11:263] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; 4, 0, 17; 1, 0, 0;
+D/XAG[01-01 00:00:11:464] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -37, 0, 5; 0, -1, -2;
+D/XAG[01-01 00:00:11:664] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; 14, 0, 1; 0, 0, -2;
+D/XAG[01-01 00:00:11:863] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; 10, 0, 41; 0, 0, -4;
+D/XAG[01-01 00:00:12:063] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -25, 0, -2; 0, 0, -1;
+D/XAG[01-01 00:00:12:263] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -1, 1, 4; 0, 0, -2;
+D/XAG[01-01 00:00:12:463] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -39, 0, 46; 3, 0, -4;
+D/XAG[01-01 00:00:12:664] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -2, -4, 20; 2, 0, -4;
+D/XAG[01-01 00:00:12:864] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -1, 0, 24; 2, 0, -2;
+D/XAG[01-01 00:00:13:063] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; 8, 3, 45; 1, 0, -2;
+I/XAG[01-01 00:00:13:210] (Udp_Client_Proxy.cpp HeartBeat:573)udp send heartbeat to cams
+D/XAG[01-01 00:00:13:263] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -57, -3, 24; 2, 0, -4;
+D/XAG[01-01 00:00:13:464] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -27, 1, 53; 1, 0, -2;
+D/XAG[01-01 00:00:13:663] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -24, 0, 12; 1, 0, -4;
+D/XAG[01-01 00:00:13:863] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -3, 2, 31; 2, 0, -2;
+D/XAG[01-01 00:00:14:063] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -3, 3, 19; 2, 0, -2;
+D/XAG[01-01 00:00:14:263] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -26, 0, 5; 2, 0, 0;
+D/XAG[01-01 00:00:14:463] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -2, -6, 15; 0, 0, -2;
+D/XAG[01-01 00:00:14:663] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -34, -1, -3; 2, 0, -3;
+D/XAG[01-01 00:00:14:864] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -37, 1, 50; 0, 0, -2;
+D/XAG[01-01 00:00:15:064] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -25, -1, 23; 0, 0, -4;
+I/XAG[01-01 00:00:15:214] (Udp_Client_Proxy.cpp HeartBeat:573)udp send heartbeat to cams
+D/XAG[01-01 00:00:15:263] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; 7, 3, 34; 0, 0, -1;
+D/XAG[01-01 00:00:15:663] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -25, 0, 17; 0, 0, -2;
+D/XAG[01-01 00:00:15:864] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -53, 0, 1; 0, 0, 0;
+D/XAG[01-01 00:00:16:063] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -22, 3, 31; 1, 0, -2;
+D/XAG[01-01 00:00:16:264] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -17, -2, 3; 1, 0, 0;
+D/XAG[01-01 00:00:16:464] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -13, 1, 33; 0, -1, -2;
+D/XAG[01-01 00:00:16:664] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -24, -1, 43; 2, 0, 0;
+D/XAG[01-01 00:00:16:864] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -9, 3, 39; 0, 0, -1;
+D/XAG[01-01 00:00:17:064] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -40, 8, 9; 2, 0, -2;
+I/XAG[01-01 00:00:17:218] (Udp_Client_Proxy.cpp HeartBeat:573)udp send heartbeat to cams
+D/XAG[01-01 00:00:17:263] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; 4, -2, 31; 1, 0, 0;
+D/XAG[01-01 00:00:17:464] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -18, 0, 25; 2, 0, 0;
+D/XAG[01-01 00:00:17:664] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -21, 4, 13; 0, 0, -2;
+D/XAG[01-01 00:00:17:863] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -3, 1, 21; 2, 0, -4;
+D/XAG[01-01 00:00:18:063] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -59, 0, 54; 2, -1, -1;
+D/XAG[01-01 00:00:18:263] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -14, -2, 36; 1, 0, -2;
+D/XAG[01-01 00:00:18:463] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -6, 0, 20; 1, 0, -1;
+D/XAG[01-01 00:00:18:663] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; 0, 0, -1; 0, 0, 0;
+D/XAG[01-01 00:00:18:864] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -3, 3, 43; 0, 0, -4;
+D/XAG[01-01 00:00:19:064] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; 0, 2, 43; 1, 0, -1;
+I/XAG[01-01 00:00:19:222] (Udp_Client_Proxy.cpp HeartBeat:573)udp send heartbeat to cams
+W/XAG[01-01 00:00:19:223] (Udp_Client_Proxy.cpp HeartBeatCheck:554)udp send reregister to cams
+I/XAG[01-01 00:00:19:223] (Http_Client_Proxy.cpp Http_Client_Redo_Register:227)reregister cam to cams
+
+D/XAG[01-01 00:00:19:263] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; 24, -4, 13; 1, 0, -3;
+D/XAG[01-01 00:00:19:463] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -30, -4, 17; 0, 0, -4;
+D/XAG[01-01 00:00:19:663] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -7, -2, 5; 3, 0, -1;
+D/XAG[01-01 00:00:19:863] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -5, 1, 15; 0, 0, 0;
+I/XAG[01-01 00:00:20:055] (FcProc.cpp _Cradle_Upgrade_Check:3583)Gimbal upgrade path index:[0]
+D/XAG[01-01 00:00:20:055] (FcProc.cpp _Cradle_Upgrade_Check:3569)Camera find cradle upgrade file:[/mnt/mtd/update/GIMBAL_V11_1.0.0.30.xfw]
+D/XAG[01-01 00:00:20:157] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; 7, 0, 7; 1, 0, -3;
+D/XAG[01-01 00:00:20:214] (FcProc.cpp __Cradle_Set_CradleUpgrade:3848)Camera Sets Cradle to come into upgrade mode
+I/XAG[01-01 00:00:21:227] (Udp_Client_Proxy.cpp HeartBeat:573)udp send heartbeat to cams
+D/XAG[01-01 00:00:21:727] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; 70, -528, -25; -42, 289, -7;
+D/XAG[01-01 00:00:21:927] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; 91, -773, 65; -21, 133, -15;
+D/XAG[01-01 00:00:22:127] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; 55, -276, 87; -5, 28, -7;
+D/XAG[01-01 00:00:22:327] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -6, 2, 32; 0, 1, 0;
+D/XAG[01-01 00:00:22:526] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; 5, 0, 24; 0, 0, -4;
+D/XAG[01-01 00:00:22:727] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -11, 6, 44; 1, 0, -1;
+D/XAG[01-01 00:00:22:926] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -5, 4, 37; 4, 0, -2;
+D/XAG[01-01 00:00:23:127] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; 20, 0, 44; 0, 0, -2;
+I/XAG[01-01 00:00:23:230] (Udp_Client_Proxy.cpp HeartBeat:573)udp send heartbeat to cams
+D/XAG[01-01 00:00:23:327] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; 0, 3, 10; 4, 0, -2;
+D/XAG[01-01 00:00:23:527] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -6, -1, 32; 0, 0, 0;
+D/XAG[01-01 00:00:23:727] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; 1, 0, 15; 0, 0, -2;
+D/XAG[01-01 00:00:23:927] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -16, 2, 26; 3, 0, 0;
+D/XAG[01-01 00:00:24:127] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -2, -3, 19; 2, 0, 0;
+D/XAG[01-01 00:00:24:330] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -2, -1, 3; 0, 0, 0;
+D/XAG[01-01 00:00:24:530] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -43, 2, 22; 2, 0, -2;
+D/XAG[01-01 00:00:24:730] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -28, -1, 19; 3, 0, 0;
+D/XAG[01-01 00:00:24:931] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -31, 2, 14; 2, 0, -1;
+D/XAG[01-01 00:00:25:130] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; 2, -3, 20; 0, 0, -2;
+I/XAG[01-01 00:00:25:234] (Udp_Client_Proxy.cpp HeartBeat:573)udp send heartbeat to cams
+D/XAG[01-01 00:00:25:330] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -19, -1, 24; 0, 0, 0;
+D/XAG[01-01 00:00:25:531] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -23, 0, 9; 4, 0, -2;
+D/XAG[01-01 00:00:25:731] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; 25, -1, 54; 2, 0, -4;
+D/XAG[01-01 00:00:25:931] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -16, 0, -4; 1, 0, -2;
+D/XAG[01-01 00:00:26:131] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -7, 12, 24; 0, 0, -4;
+D/XAG[01-01 00:00:26:331] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -1, 0, 8; 2, 0, 0;
+D/XAG[01-01 00:00:26:531] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -8, 27, 25; 0, 0, -1;
+D/XAG[01-01 00:00:26:731] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -10, 3, 25; 0, 0, -1;
+D/XAG[01-01 00:00:26:930] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; 4, 0, 13; 0, 0, -2;
+D/XAG[01-01 00:00:27:131] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; 0, 0, 28; 1, 0, -2;
+I/XAG[01-01 00:00:27:238] (Udp_Client_Proxy.cpp HeartBeat:573)udp send heartbeat to cams
+D/XAG[01-01 00:00:27:331] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -11, 1, 35; 0, 0, -2;
+D/XAG[01-01 00:00:27:531] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -3, -1, 41; 2, 0, -2;
+D/XAG[01-01 00:00:27:931] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; 15, 1, 24; 2, 0, -3;
+D/XAG[01-01 00:00:28:131] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -10, 2, 6; 1, 0, -1;
+D/XAG[01-01 00:00:28:331] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -13, 21, 31; 0, 0, -3;
+D/XAG[01-01 00:00:28:531] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -18, 3, 29; 0, 0, -3;
+D/XAG[01-01 00:00:28:731] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; 6, 6, 36; 0, 0, -1;
+D/XAG[01-01 00:00:28:930] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -39, 0, 44; 0, 0, -5;
+D/XAG[01-01 00:00:29:131] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; 0, 0, 14; 1, 0, 0;
+I/XAG[01-01 00:00:29:242] (Udp_Client_Proxy.cpp HeartBeat:573)udp send heartbeat to cams
+W/XAG[01-01 00:00:29:243] (Udp_Client_Proxy.cpp HeartBeatCheck:554)udp send reregister to cams
+I/XAG[01-01 00:00:29:243] (Http_Client_Proxy.cpp Http_Client_Redo_Register:227)reregister cam to cams
+
+D/XAG[01-01 00:00:29:330] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -15, -1, 50; 0, 0, 0;
+W/XAG[01-01 00:00:29:508] (CameraModule.cpp CameraModule_Msg_Send:386)data size is 0
+D/XAG[01-01 00:00:29:509] (CameraModule.cpp ParserCmdBuffer:224)eCameraType :[0x1b]
+D/XAG[01-01 00:00:29:509] (cmfwk_ipcu.c FJ_IPCU_Open:1104)FJ_IPCU_Open: open /dev/snrtos1_1 (IPCU#9) 
+
+D/XAG[01-01 00:00:29:510] (cmfwk_ipcu.c FJ_IPCU_Open:1104)FJ_IPCU_Open: open /dev/snrtos1_0 (IPCU#8) 
+
+D/XAG[01-01 00:00:29:510] (cmfwk_ipcu.c FJ_IPCU_Send:1229)FJ_IPCU_Send: id=9 pdata=0x6511d7b8 length=1040 sync=1 
+
+D/XAG[01-01 00:00:29:510] (cmfwk_ipcu.c ipcu_sender_thread:650)send_from_noshared sneder id 9
+D/XAG[01-01 00:00:29:530] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -8, 0, 42; 3, 0, -2;
+D/XAG[01-01 00:00:29:533] (cmfwk_ipcu.c ipcu_sender_thread:667)signal send resonse, id 9
+D/XAG[01-01 00:00:29:534] (cmfwk_ipcu.c FJ_IPCU_Close:1165)FJ_IPCU_Close: close /dev/snrtos1_1 (IPCU#9) 
+
+D/XAG[01-01 00:00:29:534] (cmfwk_ipcu.c stop_receiving_channel:881)stop_receiving_channel: IPCU#8: begin 
+
+D/XAG[01-01 00:00:29:534] (cmfwk_ipcu.c ipcu_receiver_thread:729)ipcu_receiver_thread: IPCU#8: cancelled IPCU_IOCTL_RECVMSG 
+
+D/XAG[01-01 00:00:29:534] (cmfwk_ipcu.c stop_receiving_channel:912)stop_receiving_channel: IPCU#8: finished 
+
+D/XAG[01-01 00:00:29:534] (cmfwk_ipcu.c FJ_IPCU_Close:1165)FJ_IPCU_Close: close /dev/snrtos1_0 (IPCU#8) 
+
+D/XAG[01-01 00:00:29:730] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -16, 0, 35; 3, 0, -1;
+D/XAG[01-01 00:00:29:930] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -18, -2, 19; 0, 0, -3;
+D/XAG[01-01 00:00:30:131] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; 7, 1, 46; 0, 0, -1;
+D/XAG[01-01 00:00:30:330] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; 0, -4, 18; 1, 0, -2;
+D/XAG[01-01 00:00:30:531] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -11, 0, 23; 1, 0, -2;
+D/XAG[01-01 00:00:30:731] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -43, -3, 19; 4, 0, -2;
+D/XAG[01-01 00:00:30:931] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -14, -3, -1; 0, 0, -2;
+D/XAG[01-01 00:00:31:131] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -1, -1, 14; 0, 0, -2;
+I/XAG[01-01 00:00:31:247] (Udp_Client_Proxy.cpp HeartBeat:573)udp send heartbeat to cams
+D/XAG[01-01 00:00:31:331] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -8, -5, 32; 2, 0, -2;
+D/XAG[01-01 00:00:31:530] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -21, 1, 36; 2, 0, 0;
+D/XAG[01-01 00:00:31:731] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -63, -1, 35; 4, 0, -1;
+D/XAG[01-01 00:00:31:931] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -21, 0, 38; 1, 0, 0;
+D/XAG[01-01 00:00:32:131] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -36, 0, 37; 3, 0, 0;
+D/XAG[01-01 00:00:32:330] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -4, 0, 7; 0, 0, -2;
+D/XAG[01-01 00:00:32:530] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -1, -4, -1; 1, 0, 0;
+D/XAG[01-01 00:00:32:731] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -32, -5, 30; 2, 0, 0;
+D/XAG[01-01 00:00:32:931] (SerialCradle_head.cpp _onRecv_Cradle_DebugInfo1:684)cardle log: 0; 0, 0, 0; 0, 0, 0; 0, 0, 0; -21, 11, 16; 0, -1, 0;
