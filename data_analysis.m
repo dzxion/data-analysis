@@ -217,10 +217,15 @@ end
 uq = data(:,4);
 rs = 0.12;
 iq = data(:,3);
+P = 14;
 we = data(:,6)*2*pi;
+w = we/P*2;
 phi = 0.000487;
+Kt = 3/4*P*phi;
 uq_cal = rs*iq+we*phi;
-plot(uq);
-hold on
-plot(uq_cal);
-legend
+% plot(uq);
+% hold on
+% plot(uq_cal);
+% legend
+
+c = Kt*iq(1000:2000,1)./(w(1000:2000,1).^2);
