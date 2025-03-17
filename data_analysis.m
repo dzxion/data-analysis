@@ -215,6 +215,7 @@ for i = 1:length(outlier_rows)
 end
 
 uq = data(:,4);
+vq_int = data(:,5);
 rs = 0.12;
 iq = data(:,3);
 P = 14;
